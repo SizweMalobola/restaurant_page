@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Brygada 1918", serif;
+}
+/* content */
+#content {
+  padding: 0;
+}
+/* navbar */
+nav {
+  width: 100;
+  background-image: linear-gradient(300deg, crimson, yellow);
+}
+#logo {
+  width: 8rem;
+}
+.navbar-collapse {
+  position: relative;
+  margin-left: 30%;
+}
+.nav-item {
+  margin-left: 4.5rem;
+}
+.nav-link {
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* home page */
+#content-div {
+  padding: 105px 0;
+  background: linear-gradient(
+      360deg,
+      rgba(134, 203, 212, 0.222) 0%,
+      rgba(250, 107, 64, 0.233) 50%
+    ),
+    url("https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-61.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#content-div p:first-child {
+  /* text gradient */
+  margin-top: 19rem;
+  background: -webkit-linear-gradient(
+    -90deg,
+    crimson 0%,
+    rgba(250, 250, 15, 0.911) 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgb(170, 11, 11) 2px 3px;
+  font-weight: bold;
+}
+#content-div p:nth-child(2) {
+  background: -webkit-linear-gradient(
+    -90deg,
+    crimson 0%,
+    rgba(250, 250, 15, 0.911) 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgb(170, 11, 11) 2px 3px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* content div two */
+#content-div-two {
+  background-image: linear-gradient(315deg, #cc221c 0%, #f7d333 74%);
+  min-height: 500px;
+  position: relative;
+  padding-top: 5rem;
+}
+#content-div-two:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: url("https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#content-div-two p {
+  font-size: 1.5rem;
+}
+#uber-btn {
+  height: 6.5rem;
+  width: 6.5rem;
+  background-image: url("https://play-lh.googleusercontent.com/MMBG4AZmpMhSfhF5k7QnFmhvFbaF5ZC_BtEOIKRt9TIkUZjul2lWwPZV75PwTfoSm23-jgMxkroRGA-vkDg=s180-rw");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 0 2rem;
+}
+#wolt-btn {
+  height: 6.5rem;
+  width: 6.5rem;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b0/Wolt-app-icon-2019.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+/* content div three */
+#content-div-three {
+  background-color: white;
+}
+#content-div-three i {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+#content-div-three p {
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+/* MENU */
+/* showcase */
+.menu-showcase {
+  padding-top: 105px;
+  background-color: black;
+  color: white;
+  height: 50vh;
+  font-family: roboto, sans-serif;
+}
+.menu-showcase > h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+#ramen-bg-img {
+  background: url("https://www.teahub.io/photos/full/344-3449561_collard-greens-ramen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#sushi-bg-img {
+  background: url("https://wallpapermemory.com/uploads/433/sushi-wallpaper-hd-1920x1080-232366.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#dessert-bg-img {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/0/06/Mitarashi_dango_001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* grid */
+.menu-grid {
+  background-image: linear-gradient(315deg, #cc221c 0%, #f7d333 74%);
+  color: black;
+  height: 50vh;
+  margin: 0;
+}
+.menu-grid > .col-sm-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-grid > .col-sm-6 > h4 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.menu-grid .col-sm-6 > p {
+  font-size: 1.2rem;
+}
+
+/* CONTACTS PAGE */
+#contacts-primary-container {
+  background-image: linear-gradient(315deg, #cc221c 0%, #f7d333 74%);
+  height: 100vh;
+}
+#contacts-secondary-container {
+  padding-top: 110px;
+}
+#contacts-secondary-container > h1 {
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  margin-bottom: 4rem;
+}
+#contacts-secondary-container > h1::after {
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  right: 42%;
+}
+
+#contacts-tertiary-container {
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 3rem 2rem;
+}
+/* info container */
+#info-container {
+  text-align: start;
+}
+#info-container div {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+#info-container p:last-of-type {
+  margin-bottom: 2rem;
+}
+#info-container input {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+  padding-left: 2px;
+}
+#info-container input:focus {
+  box-shadow: none;
+}
+/* input transition  */
+#info-container input:focus ~ span {
+  color: #cc221c;
+  transform: translateY(-1.7rem);
+  font-size: 0.9rem;
+}
+#info-container span {
+  position: absolute;
+  top: 0;
+  transition: 0.4s;
+  color: gray;
+}
